@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Art by Martha - Professional Hairstylist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Hair Art by Martha</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Transform Your Style</h1>
+            <p class="hero-subtitle">Professional hairstyling services that bring out your natural beauty</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">View Services</a>
+                <a href="#contact" class="btn btn-secondary">Book Appointment</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="public/Logo.png" alt="Hair Art by Martha Logo" class="hero-logo">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Haircuts & Styling</h3>
+                    <p>Professional cuts and styling for all hair types and lengths.</p>
+                    <span class="price">From $45</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Hair Coloring</h3>
+                    <p>Expert color services including highlights, balayage, and full color.</p>
+                    <span class="price">From $85</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Special Occasions</h3>
+                    <p>Wedding, prom, and special event styling and updos.</p>
+                    <span class="price">From $120</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Hair Treatments</h3>
+                    <p>Deep conditioning, keratin treatments, and hair health services.</p>
+                    <span class="price">From $65</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cuts">Cuts</button>
+                <button class="filter-btn" data-filter="color">Color</button>
+                <button class="filter-btn" data-filter="styling">Styling</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="cuts">
+                    <img src="public/portfolio-1.jpg" alt="Modern Bob Cut" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Modern Bob Cut</h3>
+                        <p>Clean, contemporary styling</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="color">
+                    <img src="public/portfolio-2.jpg" alt="Balayage Highlights" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Balayage Highlights</h3>
+                        <p>Natural sun-kissed look</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="styling">
+                    <img src="public/portfolio-3.jpg" alt="Wedding Updo" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Wedding Updo</h3>
+                        <p>Elegant bridal styling</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="cuts">
+                    <img src="public/portfolio-4.jpg" alt="Layered Cut" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Layered Cut</h3>
+                        <p>Volume and movement</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="color">
+                    <img src="public/portfolio-5.jpg" alt="Vibrant Color" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Vibrant Color</h3>
+                        <p>Bold and beautiful</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="styling">
+                    <img src="public/portfolio-6.jpg" alt="Curly Styling" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Curly Styling</h3>
+                        <p>Natural curl enhancement</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="color">
+                    <img src="public/portfolio-7.jpg" alt="Balayage & Highlights" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <h3>Balayage & Highlights</h3>
+                        <p>Sun-kissed natural look</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Martha</h2>
+                    <p>At Hair Art by Martha, achieving your ideal look is always my top priority. I specialize in customized color and high-end styling, using the renowned Joico color line to ensure every color service leaves your hair not only vibrant and shiny, but also deeply conditioned and healthy.</p>
+                    <p>Every client is unique, so every haircut and style is designed specifically for you—no cookie-cutter cuts here. I take the time to listen and collaborate, making sure each detail reflects your individual preferences and personality.</p>
+                    <p>My commitment to true customization means your experience is as exceptional as your results. You'll leave with a style that enhances your natural beauty and feels authentically you—never generic, always one-of-a-kind.</p>
+                    <p>Ready to discover your best look? Let's work together to create something beautiful.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Satisfaction Rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="public/about-image.jpg" alt="Martha - Professional Hairstylist" class="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(480) 577-5561</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>martha@hairart.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>4909 E Chandler Blvd #507<br>Phoenix, AZ 85048</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Sunday: 9:00 AM - 4:00 PM<br>Monday: 10:00 AM - 7:30 PM<br>Tuesday: 10:00 AM - 7:30 PM<br>Wednesday: 11:00 AM - 7:30 PM<br>Thursday: 10:00 AM - 7:30 PM<br>Friday: 10:00 AM - 9:00 PM<br>Saturday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Select Service</option>
+                            <option value="haircut">Haircut & Styling</option>
+                            <option value="color">Hair Coloring</option>
+                            <option value="special">Special Occasions</option>
+                            <option value="treatment">Hair Treatments</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hair Art by Martha</h3>
+                    <p>Professional hairstyling services that bring out your natural beauty.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/hairartbymartha/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/hairartbymartha" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Haircuts & Styling</li>
+                        <li>Hair Coloring</li>
+                        <li>Special Occasions</li>
+                        <li>Hair Treatments</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hair Art by Martha. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
